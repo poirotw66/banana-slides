@@ -12,6 +12,12 @@ resolution-markers = [
     "python_full_version < '3.11' and sys_platform != 'win32'",
 ]
 
+[manifest]
+overrides = [
+    { name = "numpy", specifier = "<2" },
+    { name = "onnxruntime", specifier = "<1.17.0" },
+]
+
 [[package]]
 name = "alembic"
 version = "1.17.2"

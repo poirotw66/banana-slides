@@ -23,6 +23,9 @@
     "stop": "docker compose down",
     "quick-check": "npm run lint && npm run test:frontend && npm run test:backend"
   },
+  "devDependencies": {
+    "@playwright/test": "^1.40.1"
+  },
   "engines": {
     "node": ">=18.0.0"
   }
