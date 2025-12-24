@@ -9,12 +9,12 @@ interface LoadingProps {
 
 export const Loading: React.FC<LoadingProps> = ({
   fullscreen = false,
-  message = '加载中...',
+  message = '載入中...',
   progress,
 }) => {
   const content = (
     <div className="flex flex-col items-center justify-center">
-      {/* 加载图标 */}
+      {/* 載入圖示 */}
       <div className="relative w-12 h-12 mb-4">
         <div className="absolute inset-0 border-4 border-banana-100 rounded-full" />
         <div className="absolute inset-0 border-4 border-banana-500 rounded-full border-t-transparent animate-spin" />

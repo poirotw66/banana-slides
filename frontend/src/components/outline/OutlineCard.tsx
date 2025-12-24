@@ -140,9 +140,9 @@ export const OutlineCard: React.FC<OutlineCardProps> = ({
               onClick={(e) => {
                 e.stopPropagation();
                 confirm(
-                  '确定要删除这一页吗？',
+                  '確定要刪除這一頁嗎？',
                   onDelete,
-                  { title: '确认删除', variant: 'danger' }
+                  { title: '確認刪除', variant: 'danger' }
                 );
               }}
               className="p-1.5 text-gray-500 hover:text-red-600 hover:bg-red-50 rounded transition-colors"

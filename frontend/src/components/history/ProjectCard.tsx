@@ -100,7 +100,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
                     : 'cursor-pointer hover:text-banana-600 transition-colors'
                 }`}
                 onClick={(e) => onStartEdit(e, project)}
-                title={isBatchMode ? undefined : "点击编辑名称"}
+                title={isBatchMode ? undefined : "點擊編輯名稱"}
               >
                 {title}
               </h3>
@@ -141,7 +141,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
           <button
             onClick={(e) => onDelete(e, project)}
             className="p-2 text-gray-400 hover:text-red-600 hover:bg-red-50 rounded-lg transition-colors"
-            title="删除项目"
+            title="刪除專案"
           >
             <Trash2 size={16} className="md:w-[18px] md:h-[18px]" />
           </button>
